@@ -1,5 +1,5 @@
 html{
-    background-image: url("imagem.png");
+    background-image: url("/assets/imagem.png");
     background-size: cover;
 }
 h1, p{
