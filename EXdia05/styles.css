@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.cores-exa{
+    background-color: #3498db;
+    border-radius: 5px;
+}
+.cores-exa:hover{
+    background-color: #3498db8c;
+}
+.cores-rgb{
+    background-color: rgb(46, 204, 113);
+    border-radius: 5px;
+}
+.cores-rgb:hover{
+     background-color: rgba(46, 204, 112, 0.527);
+}
+.cores-hsl{
+    background-color: hsl(48, 100%, 50%);
+    border-radius: 5px;
+    color: #000;
+}
+.cores-hsl:hover{
+    background-color: hsla(48, 100%, 50%, 0.555);
+}
+.background-image{
+    height: 35rem;
+    background-image: url("../assets/17063414-3e50-4bb0-a711-200c15c6827c.png");
+    border-radius: 5px;
+    background-blend-mode: overlay;
+    position: relative;
+    background-size: cover;
+}
+section{
+    padding: 1rem;
+    margin: 1rem;
+}
