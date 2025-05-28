@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+}
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+.paragrafo1{
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+    text-indent: 3%;
+}
+.paragrafo2{
+    text-align: center;
+}
+.paragrafo3{
+    text-align: right;
+}
+.paragrafo4{
+    color: aqua;
+}
+.paragrafo5{
+    font-weight: 900;
+}
