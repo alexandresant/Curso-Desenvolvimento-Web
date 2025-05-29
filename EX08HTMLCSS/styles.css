@@ -1,0 +1,48 @@
+body{
+    background-color: #ebf2f6;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #2a5885;
+}
+main{
+    padding: 10px;
+    background-color: #ffffff;
+    border: 3px solid #2a5885;
+    border-radius: 10px;
+}
+h1{
+    color: #2a5885;
+}
+.h1-img{
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+}
+.h1-img img{
+    width: 15%;
+    height: 15%px;
+    flex-direction: row;
+
+}
+.cards{
+    padding: 3px;
+    border: 3px solid #2a5885;
+    border-radius: 6px;
+    margin: 10px;
+}
+.cards:hover{
+    background-color: #2a58853a;
+}
+h2, p{
+    margin: 10px;
+}
+.cards:focus{
+    background-color: #2a58853a;
+}                       
+.cards:active {
+    transform: scale(0.98);
+}
+    

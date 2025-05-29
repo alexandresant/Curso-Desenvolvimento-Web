@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio cadastro de usuário</title>
+</head>
+<body>
+    <main>
+        
+        <form action="" method="get" class="form-exemplo">
+            <h1>Cadastro de Usuário</h1>
+            <div class="input-div">  
+                <input type="text" name="nome" placeholder="Nome completo" class="input-text">      
+                <input type="text" placeholder="E-mail" class="input-text">                  
+                <input type="text" placeholder="Senha" class="input-text">           
+                <input type="text" placeholder="Confirmação de senha" class="input-text" required>              
+                <input type="text" placeholder="Data de Nascimento" class="input-text">
+            </div>
+            <div class="radio-box">
+                <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+            </div>
+
+            <div class="aceite-dos-termos">
+                <label for=""><input type="checkbox" >Aceite os termos</label>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
