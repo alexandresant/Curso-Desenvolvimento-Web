@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divCadastro">
+        <form action="index.html" method="post" id="produtos" class="formCadastro">
+            <input type="text" placeholder="Produto" id="produto" required autocomplete="off">
+            <input type="text" placeholder="Fornecedor" id="fornecedor" required autocomplete="off">
+            <input type="number" placeholder="Quantidade" id="quantidade" required autocomplete="off">
+            <input type="number" placeholder="Preço" id="preco" required autocomplete="off"><br>
+            <button type="submit" class="btn-salvar">Salvar</button>
+        </form>
+    </div>
+
+    <form method="post" action="index.html" id="formulario" class="formulario">
+        <div id="mostrarProdutos"></div>
+        <input type="text" id="filtrar" class="filtrar" autocomplete="off">
+        <button type="submit">Mostrar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
