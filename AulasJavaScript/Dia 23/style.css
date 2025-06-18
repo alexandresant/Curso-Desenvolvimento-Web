@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(38, 44, 49);
+    font-family: arial, sans-serif;
+    padding: 2rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    margin-top: 2rem;
+   
+}
+
+td, th{
+    padding: 1rem;
+    border: 1px solid gray;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+thead{
+    background-color: blueviolet;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(221, 217, 217);
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+}
+
+.mostrar-produtos{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: aliceblue;
+    border: 1px solid gray;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}

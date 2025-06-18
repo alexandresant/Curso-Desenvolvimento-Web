@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 23</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div id="cadastro-produto" class="cadastro-produto">  
+             <h1>Cadastrar Produtos</h1>
+            <form action="index.html" id="form-cadastro-produto">
+                <input type="text" id="nome-produto" placeholder="Produto" autocomplete="off" required>
+                <input type="number" id="quantidade" placeholder="Quantidade" autocomplete="off" required>
+                <input type="number" id="preco" placeholder="Preço" autocomplete="off" required>
+                <input type="text" id="fornecedor" placeholder="Fornecedor" autocomplete="off" required>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="mostrar-produtos">
+            <h1>Lista de Produtos</h1>
+            <input type="text" id="filtro" placeholder="Nome" autocomplete="off" required>
+            <button id="filtrar">Filtrar</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Fornecedor</th>
+                        <th>Movimentação</th>
+                    </tr>
+                </thead>
+                <tbody id="linha-produtos">
+                    
+                    <td>
+                        <button>Entrada / Saída</button>
+                    </td>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/* Reset e fonte moderna */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1f2f, #131424);
+  color: #f2f2f2;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Formulário de cadastro */
+.divCadastro, .divAlunos {
+  background: linear-gradient(145deg, #292b3a, #1c1d2d);
+  border: 1px solid #3e3f51;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+  width: 100%;
+  max-width: 360px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2d2e3e;
+  color: #f2f2f2;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  outline: 2px solid #6b63ff;
+  background-color: #33344a;
+}
+
+/* Botão estilizado */
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6b63ff, #8f6aff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #8f6aff, #6b63ff);
+  transform: scale(1.02);
+}
+
+/* Lista de produtos exibidos */
+#mostrarProdutos {
+  margin-top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+#mostrarProdutos li {
+  list-style: none;
+  background-color: #2d2e3e;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Campo de filtro */
+.filtro {
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  body {
+    padding: 20px 10px;
+  }
+}
