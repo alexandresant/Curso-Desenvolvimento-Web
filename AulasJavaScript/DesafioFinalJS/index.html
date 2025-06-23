@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JavaScript</title>
+</head>
+<body>
+    <main>
+        <div class="div-cadastrar">
+            <h1> Cadastrar Produtos</h1>
+            <form action="index.html" id="form-cadastro-produtos">
+                <input type="text" id="descricao-produto" placeholder="Produto"> 
+                <p id="erro-produto" class="erro"></p>   
+                <input type="text" id="preco" placeholder="Preco">
+                <p id="erro-preco" class="erro"></p>
+                <input type="text" id="quantidade" placeholder="Quantidade">
+                <p id="erro-quantidade" class="erro"></p>
+                <input type="text" id="fornecedor" placeholder="Fornecedor">
+                <p id="erro-fornecedor" class="erro"></p>
+                <button id="btn-cadastrar" class="btn-cadastrar" type="submit">Cadastrar</button>
+            </form>
+        </div>
+            
+        <div class="div-tabela">
+            <div id="div-filtrar">
+                <input type="text" id="filtro" placeholder="Produto">
+                <button id="filtrar">Buscar</button>
+            </div>
+            <table id="tabela-produtos">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Fornecedor</th>
+                        <th>Movimentação</th>
+                    </tr>
+                </thead>
+                <tbody id="linha-produtos">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
