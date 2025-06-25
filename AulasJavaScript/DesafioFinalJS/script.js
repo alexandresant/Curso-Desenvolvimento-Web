@@ -5,9 +5,8 @@ let indexEditando = null
 
 const produtosSalvos = localStorage.getItem('produtos')
 
-if (produtosSalvos){
-    produtos = JSON.parse(produtosSalvos)
-}
+produtos = produtosSalvos ? JSON.parse(produtosSalvos) : produtos
+
 renderizarProdutos()
 
 function excluirProduto(id){
